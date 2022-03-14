@@ -8,9 +8,9 @@ public class Student {
 
     public static ArrayList<Integer> grades;
 
-    public Student(String name, long id) {
+    public Student(String studentName, long studentId) {
         name = studentName;
-        id = studentID;
+        id = studentId;
         grades = new ArrayList<Integer>();
     }
 
